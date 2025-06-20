@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бонус 500% + 70 Фриспинов</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      scroll-behavior: smooth;
+      background-image: linear-gradient(180deg, #ffffff 0%, #e0f7ff 100%);
+    }
+    header, section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #0099cc;
+      text-shadow: 0 0 5px #00cfff;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .menu a {
+      padding: 10px 20px;
+      background: #00cfff;
+      color: #ffffff;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #00cfff88;
+    }
+    .menu a:hover {
+      background: #0099cc;
+      box-shadow: 0 0 15px #0099ccaa;
+    }
+    .bonus-section {
+      margin: 40px 0;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.6s ease;
+    }
+    .bonus-section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .promo {
+      background: #00cfff;
+      color: #ffffff;
+      font-size: 28px;
+      padding: 10px 20px;
+      border-radius: 12px;
+      display: inline-block;
+      margin: 15px 0;
+      box-shadow: 0 0 10px #00cfff88;
+      animation: fadeIn 1.2s ease-in-out;
+      cursor: pointer;
+    }
+    .promo:hover {
+      background-color: #0099cc;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background: #0099cc;
+      color: #ffffff;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #0099cc88;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #0077aa;
+      box-shadow: 0 0 15px #0077aabb;
+    }
+    .funnel, .reviews, .cta {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #f8fdff;
+    }
+    .review {
+      margin-bottom: 20px;
+      font-style: italic;
+      background: #e8f8ff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00cfff33;
+    }
+    .cta a {
+      font-weight: bold;
+      background: #00cfff;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 15px #00cfff99;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #0099cc;
+    }
+    .onewin-label {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00cfff;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 0 15px #00cfff;
+      text-decoration: none;
+      z-index: 1000;
+      transition: 0.3s;
+    }
+    .onewin-label:hover {
+      background: #0099cc;
+      box-shadow: 0 0 20px #0099cc;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 1.8rem; }
+      .menu a { padding: 8px 16px; font-size: 14px; }
+      .promo { font-size: 22px; }
+      .button { padding: 10px 20px; font-size: 14px; }
+      .cta a { padding: 12px 20px; font-size: 14px; }
+      .onewin-label {
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 16px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎁 500% + 70 ФРИСПИНОВ</h1>
+    <div class="menu">
+      <a href="#sweet">Sweet Bonanza</a>
+      <a href="#sweet1000">Sweet Bonanza 1000</a>
+      <a href="#doghouse">The Dog House</a>
+      <a href="#zeus">Zeus vs Hades</a>
+      <a href="#olympus">Gates of Olympus</a>
+    </div>
+  </header>
+
+  <section id="sweet" class="bonus-section">
+    <h2>🍬 Sweet Bonanza</h2>
+    <p>+500% и 70 фриспинов на легендарный слот</p>
+    <div class="promo" onclick="copyPromo(this)">BONAN500</div>
+    <a class="button" href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Активировать</a>
+  </section>
+
+  <section id="sweet1000" class="bonus-section">
+    <h2>🚀 Sweet Bonanza 1000</h2>
+    <p>Обновлённая версия, больше множителей, больше кайфа</p>
+    <div class="promo" onclick="copyPromo(this)">BONAN500</div>
+    <a class="button" href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Активировать</a>
+  </section>
+
+  <section id="doghouse" class="bonus-section">
+    <h2>🐶 The Dog House</h2>
+    <p>Липкие множители и дикое веселье</p>
+    <div class="promo" onclick="copyPromo(this)">TDOG500</div>
+    <a class="button" href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Активировать</a>
+  </section>
+
+  <section id="zeus" class="bonus-section">
+    <h2>⚡ Zeus vs Hades</h2>
+    <p>Эпическая битва богов, бонусы в обеих мирах</p>
+    <div class="promo" onclick="copyPromo(this)">ZEHA500</div>
+    <a class="button" href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Активировать</a>
+  </section>
+
+  <section id="olympus" class="bonus-section">
+    <h2>🏛️ Gates of Olympus</h2>
+    <p>Молнии Зевса и каскады множителей</p>
+    <div class="promo" onclick="copyPromo(this)">OLYMPX500</div>
+    <a class="button" href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Активировать</a>
+  </section>
+
+  <section class="funnel">
+    <h2>Как получить бонус?</h2>
+    <p>1. Выберите игру выше и скопируйте свой промокод</p>
+    <p>2. Перейдите по кнопке «Активировать» и зарегистрируйтесь</p>
+    <p>3. Введите промокод при пополнении и получите до 500% + 70 фриспинов</p>
+  </section>
+
+  <section class="reviews">
+    <h2>Отзывы</h2>
+    <div class="review">«Получил фриспины сразу, вывел на второй день. Всё чётко 👌»</div>
+    <div class="review">«Думал, что обман, но реально дали +500% и бонусы. Рекомендую!»</div>
+    <div class="review">«Регистрировался только ради фри-спинов, и не пожалел.»</div>
+  </section>
+
+  <section class="cta">
+    <h2>Готов к игре?</h2>
+    <a href="https://1wzyuh.com/v3/aggressive-casino?p=nplh">Перейти на официальный сайт</a>
+  </section>
+
+  <a href="https://1wzyuh.com/v3/aggressive-casino?p=nplh" class="onewin-label">Перейти на 1WIN</a>
+
+  <script>
+    const sections = document.querySelectorAll('.bonus-section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    sections.forEach(section => observer.observe(section));
+
+    function copyPromo(el) {
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        el.innerText = 'Скопировано!';
+        setTimeout(() => el.innerText = el.dataset.code || el.textContent, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
